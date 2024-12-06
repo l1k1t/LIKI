@@ -6,3 +6,4 @@ RUN rm -rf /usr/local/apache2/htdocs/*
 RUN git clone https://github.com/akshu20791/apachewebsite/ /usr/local/apache2/htdocs/
 EXPOSE 80
 CMD ["httpd-foreground"]
+print("liki file")
